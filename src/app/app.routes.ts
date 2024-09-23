@@ -8,6 +8,7 @@ import { SimpleformComponent } from './simpleform/simpleform.component';
 import { UserageComponent } from './userage/userage.component';
 import { UserGreetingsComponent } from './user-greetings/user-greetings.component';
 import { CalculatorComponent } from './calculator/calculator.component';
+import { TextlengthComponent } from './text-length/text-length.component';
 
 export const routes: Routes = [
         {
@@ -49,6 +50,11 @@ export const routes: Routes = [
             title: 'Component 8: "Calculator',
             component: CalculatorComponent,
             path:'compute',
+        },
+        {
+            title: 'Component 8: "Calculator',
+            component: TextlengthComponent,
+            path:'lengthy',
         }
 
 
