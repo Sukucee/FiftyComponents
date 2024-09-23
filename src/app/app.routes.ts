@@ -13,6 +13,7 @@ import { CurrencyConverterComponent } from './currency-converter/currency-conver
 import { EvenOddCheckerComponent } from './even-odd-checker/even-odd-checker.component';
 import { WordReverserComponent } from './word-reverser/word-reverser.component';
 import { ShowDateComponent } from './show-date/show-date.component';
+import { UsernameComponent } from './username/username.component';
 
 export const routes: Routes = [
         {
@@ -79,6 +80,11 @@ export const routes: Routes = [
             title: 'Component 13: "Date Today',
             component: ShowDateComponent,
             path:'whatdaytoday',
+        },
+        {
+            title: 'Component 14: "My Username',
+            component: UsernameComponent,
+            path:'saymyname',
         }
 
     
