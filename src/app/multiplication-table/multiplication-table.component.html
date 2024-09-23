@@ -1,0 +1,7 @@
+<input type="number" placeholder="Number" #numberChoice />
+<button (click)="showMultiplicationTable()">Reveal Multiplication Table</button>
+<ul>
+    @for (item of tableArray; track $index) {
+    <li>{{ item }}</li>
+    }
+</ul>

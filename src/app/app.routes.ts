@@ -14,6 +14,7 @@ import { EvenOddCheckerComponent } from './even-odd-checker/even-odd-checker.com
 import { WordReverserComponent } from './word-reverser/word-reverser.component';
 import { ShowDateComponent } from './show-date/show-date.component';
 import { UsernameComponent } from './username/username.component';
+import { MultiplicationTableComponent } from './multiplication-table/multiplication-table.component';
 
 export const routes: Routes = [
         {
@@ -85,7 +86,13 @@ export const routes: Routes = [
             title: 'Component 14: "My Username',
             component: UsernameComponent,
             path:'saymyname',
+        },
+        {
+            title: 'Component 15: "Multiplication Tabel',
+            component: MultiplicationTableComponent,
+            path:'multiplyit',
         }
+
 
     
 
