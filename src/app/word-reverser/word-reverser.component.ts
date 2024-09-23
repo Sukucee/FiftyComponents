@@ -1,4 +1,3 @@
-
 import { Component, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
@@ -6,7 +5,7 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './word-reverser.component.html',
-  
+  styleUrl: './word-reverser.component.css'
 })
 export class WordReverserComponent {
   @ViewChild('inputWord') inputWord!: ElementRef;
