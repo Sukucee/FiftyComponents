@@ -12,6 +12,7 @@ import { TextlengthComponent } from './text-length/text-length.component';
 import { CurrencyConverterComponent } from './currency-converter/currency-converter.component';
 import { EvenOddCheckerComponent } from './even-odd-checker/even-odd-checker.component';
 import { WordReverserComponent } from './word-reverser/word-reverser.component';
+import { ShowDateComponent } from './show-date/show-date.component';
 
 export const routes: Routes = [
         {
@@ -73,7 +74,14 @@ export const routes: Routes = [
             title: 'Component 12: "Word Reversing',
             component: WordReverserComponent,
             path:'drowesrever',
+        },
+        {
+            title: 'Component 13: "Date Today',
+            component: ShowDateComponent,
+            path:'whatdaytoday',
         }
+
+    
 
 
 ];
