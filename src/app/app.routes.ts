@@ -10,6 +10,7 @@ import { UserGreetingsComponent } from './user-greetings/user-greetings.componen
 import { CalculatorComponent } from './calculator/calculator.component';
 import { TextlengthComponent } from './text-length/text-length.component';
 import { CurrencyConverterComponent } from './currency-converter/currency-converter.component';
+import { EvenOddCheckerComponent } from './even-odd-checker/even-odd-checker.component';
 
 export const routes: Routes = [
         {
@@ -61,6 +62,11 @@ export const routes: Routes = [
             title: 'Component 10: "Currency Converter',
             component: CurrencyConverterComponent,
             path:'exchange',
+        },
+        {
+            title: 'Component 11: "Even or Odd',
+            component: EvenOddCheckerComponent,
+            path:'huwhat',
         }
 
 
