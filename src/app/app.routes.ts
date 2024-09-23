@@ -5,6 +5,7 @@ import { ShowButtonComponent } from './show-button/show-button.component';
 import { DisplayNameComponent } from './display-name/display-name.component';
 import { CounterComponent } from './counter/counter.component';
 import { SimpleformComponent } from './simpleform/simpleform.component';
+import { UserageComponent } from './userage/userage.component';
 
 export const routes: Routes = [
         {
@@ -23,15 +24,21 @@ export const routes: Routes = [
             path:'show-username',
         },
         {
-            title: 'Component 3: "Count',
+            title: 'Component 4: "Count',
             component: CounterComponent,
             path:'countme',
         },
         {
-            title: 'Component 4: "Simple Form',
+            title: 'Component 5: "Simple Form',
             component: SimpleformComponent,
             path:'formnathis',
         },
+        {
+            title: 'Component 5: "User Age',
+            component: UserageComponent,
+            path:'ageyan',
+        },
+
 
 ];
 
