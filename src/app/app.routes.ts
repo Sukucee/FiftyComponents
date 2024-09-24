@@ -40,6 +40,7 @@ import { CurrencyFormatterComponent } from './currency-formatter/currency-format
 import { RandomQuoteDisplayComponent } from './random-quote-display/random-quote-display.component';
 import { UppercaseGreetingsComponent } from './uppercase-greetings/uppercase-greetings.component';
 import { DivisibleCheckerComponent } from './divisible-checker/divisible-checker.component';
+import { VowelCounterComponent } from './vowel-counter/vowel-counter.component';
 
 export const routes: Routes = [
         {
@@ -241,6 +242,11 @@ export const routes: Routes = [
             title: 'Component 40: " Divisible Checker',
             component:  DivisibleCheckerComponent,
             path:'CoolMath',
+        },
+        {
+            title: 'Component 41: " Vowel Counter',
+            component:  VowelCounterComponent,
+            path:'Countmya',
         }
         
 
