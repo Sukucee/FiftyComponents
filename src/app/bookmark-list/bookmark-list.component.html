@@ -1,0 +1,10 @@
+<input type="text" placeholder="Link" #linkInput />
+<button (click)="addLink()">ADD LINK</button>
+<ul>
+    @for (link of linksArray; track $index) {
+    <li>
+        <a href="{{ link }}" target="_blank">{{ link }}</a>
+    </li>
+
+    }
+</ul>
