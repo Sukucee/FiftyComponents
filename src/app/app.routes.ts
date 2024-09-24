@@ -35,6 +35,7 @@ import { UsernameValidatorComponent } from './username-validator/username-valida
 import { InterestCalculatorComponent } from './interest-calculator/interest-calculator.component';
 import { CompoundInterestCalculatorComponent } from './compound-interest-calculator/compound-interest-calculator.component';
 import { FibonacciGeneratorComponent } from './fibonacci-generator/fibonacci-generator.component';
+import { OddSumCalculatorComponent } from './odd-sum-calculator/odd-sum-calculator.component';
 
 export const routes: Routes = [
         {
@@ -211,6 +212,11 @@ export const routes: Routes = [
             title: 'Component 35: " Fibonacci Generator',
             component:  FibonacciGeneratorComponent ,
             path:'fiboyescci',
+        },
+        {
+            title: 'Component 36: " OddEven Calculator',
+            component:  OddSumCalculatorComponent ,
+            path:'OddEvenNaNaman',
         }
         
 
