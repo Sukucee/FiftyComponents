@@ -39,6 +39,7 @@ import { OddSumCalculatorComponent } from './odd-sum-calculator/odd-sum-calculat
 import { CurrencyFormatterComponent } from './currency-formatter/currency-formatter.component';
 import { RandomQuoteDisplayComponent } from './random-quote-display/random-quote-display.component';
 import { UppercaseGreetingsComponent } from './uppercase-greetings/uppercase-greetings.component';
+import { DivisibleCheckerComponent } from './divisible-checker/divisible-checker.component';
 
 export const routes: Routes = [
         {
@@ -235,6 +236,11 @@ export const routes: Routes = [
             title: 'Component 39: " Uppercase Greetings',
             component:  UppercaseGreetingsComponent,
             path:'BigWords',
+        },
+        {
+            title: 'Component 40: " Divisible Checker',
+            component:  DivisibleCheckerComponent,
+            path:'CoolMath',
         }
         
 
