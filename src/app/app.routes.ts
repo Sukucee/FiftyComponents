@@ -21,6 +21,7 @@ import { BookmarkListComponent } from './bookmark-list/bookmark-list.component';
 import { CharacterCounterComponent } from './character-counter/character-counter.component';
 import { PalindromeCheckerComponent } from './palindrome-checker/palindrome-checker.component';
 import { TemperatureConverterComponent } from './temperature-converter/temperature-converter.component';
+import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 
 export const routes: Routes = [
         {
@@ -127,6 +128,11 @@ export const routes: Routes = [
             title: 'Component 21: "Temperature Converter',
             component:  TemperatureConverterComponent ,
             path:'hottogo',
+        },
+        {
+            title: 'Component 22: "Shopping List',
+            component:  ShoppingListComponent ,
+            path:'minekonaito',
         }
 
 
