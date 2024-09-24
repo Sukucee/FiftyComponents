@@ -46,6 +46,7 @@ import { MinigameComponent } from './minigame/minigame.component';
 import { LettersAndNumbersComponent } from './letters-and-numbers/letters-and-numbers.component';
 import { OMGShoppingComponent } from './omgshopping/omgshopping.component';
 import { VanishingLettersComponent } from './vanishing-letters/vanishing-letters.component';
+import { SpeedConversionComponent } from './speed-conversion/speed-conversion.component';
 
 export const routes: Routes = [
         {
@@ -277,6 +278,11 @@ export const routes: Routes = [
             title: 'Component 46: " Vanishing Letters',
             component:  VanishingLettersComponent,
             path:'HalaNawala',
+        },
+        {
+            title: 'Component 47: " Speed Converter',
+            component:  SpeedConversionComponent ,
+            path:'speedster',
         }
         
 
