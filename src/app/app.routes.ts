@@ -27,6 +27,7 @@ import { ToDoManagerComponent } from './to-do-manager/to-do-manager.component';
 import { GuessTheNumberGameComponent } from './guess-the-number-game/guess-the-number-game.component';
 import { WordCounterComponent } from './word-counter/word-counter.component';
 import { RandomNumberGeneratorComponent } from './random-number-generator/random-number-generator.component';
+import { MultiplicationCheckerComponent } from './multiplication-checker/multiplication-checker.component';
 
 export const routes: Routes = [
         {
@@ -163,6 +164,11 @@ export const routes: Routes = [
             title: 'Component 27: "Random Number Generator',
             component:  RandomNumberGeneratorComponent,
             path:'randomizer',
+        },
+        {
+            title: 'Component 28: "Multiplication Checker',
+            component:  MultiplicationCheckerComponent,
+            path:'icheckko',
         }
         
 
