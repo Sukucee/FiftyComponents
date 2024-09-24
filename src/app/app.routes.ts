@@ -18,6 +18,7 @@ import { MultiplicationTableComponent } from './multiplication-table/multiplicat
 import { SimpleLoginComponent } from './simple-login/simple-login.component';
 import { FarenheitToCelciusComponent } from './farenheit-to-celcius/farenheit-to-celcius.component';
 import { BookmarkListComponent } from './bookmark-list/bookmark-list.component';
+import { CharacterCounterComponent } from './character-counter/character-counter.component';
 
 export const routes: Routes = [
         {
@@ -109,6 +110,11 @@ export const routes: Routes = [
             title: 'Component 18: "Bookmark List',
             component: BookmarkListComponent,
             path:'markthis',
+        },
+        {
+            title: 'Component 19: "Character Count',
+            component: CharacterCounterComponent ,
+            path:'countmein',
         }
 
 
