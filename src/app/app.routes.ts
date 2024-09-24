@@ -24,6 +24,7 @@ import { TemperatureConverterComponent } from './temperature-converter/temperatu
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { FactorialCalculatorComponent } from './factorial-calculator/factorial-calculator.component';
 import { ToDoManagerComponent } from './to-do-manager/to-do-manager.component';
+import { GuessTheNumberGameComponent } from './guess-the-number-game/guess-the-number-game.component';
 
 export const routes: Routes = [
         {
@@ -145,6 +146,11 @@ export const routes: Routes = [
             title: 'Component 24: "To Do Manager',
             component:  ToDoManagerComponent,
             path:'nugagawen',
+        },
+        {
+            title: 'Component 25: "Guess the Number Game',
+            component:  GuessTheNumberGameComponent,
+            path:'gamekanaba',
         }
 
 
