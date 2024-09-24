@@ -28,6 +28,7 @@ import { GuessTheNumberGameComponent } from './guess-the-number-game/guess-the-n
 import { WordCounterComponent } from './word-counter/word-counter.component';
 import { RandomNumberGeneratorComponent } from './random-number-generator/random-number-generator.component';
 import { MultiplicationCheckerComponent } from './multiplication-checker/multiplication-checker.component';
+import { UpperCaseConverterComponent } from './upper-case-converter/upper-case-converter.component';
 
 export const routes: Routes = [
         {
@@ -169,6 +170,11 @@ export const routes: Routes = [
             title: 'Component 28: "Multiplication Checker',
             component:  MultiplicationCheckerComponent,
             path:'icheckko',
+        },
+        {
+            title: 'Component 29: "Uppercase Converter',
+            component:  UpperCaseConverterComponent,
+            path:'bigletter',
         }
         
 
