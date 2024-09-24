@@ -30,6 +30,7 @@ import { RandomNumberGeneratorComponent } from './random-number-generator/random
 import { MultiplicationCheckerComponent } from './multiplication-checker/multiplication-checker.component';
 import { UpperCaseConverterComponent } from './upper-case-converter/upper-case-converter.component';
 import { WordShufflerComponent } from './word-shuffler/word-shuffler.component';
+import { BMISolverComponent } from './bmisolver/bmisolver.component';
 
 export const routes: Routes = [
         {
@@ -181,6 +182,11 @@ export const routes: Routes = [
             title: 'Component 30: "World Shuffler',
             component:  WordShufflerComponent,
             path:'rumblejumble',
+        },
+        {
+            title: 'Component 31: "BMI SOLVER',
+            component:  BMISolverComponent,
+            path:'bmisolving',
         }
         
 
