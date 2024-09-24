@@ -1,0 +1,12 @@
+<input type="text" #todoItem required />
+<button (click)="addTodo()">ADD</button>
+
+<ul>
+    @for (todoItem of todoItems; track $index) {
+    <li>{{ todoItem.todoName }} | status: {{ todoItem.todoStatus }}</li>
+    @if (todoItem.todoStatus !== 'finished') {
+    <button (click)="changeStatusToFinished(todoItem.todoId)">Finish</button>
+    }
+    <button (click)="removeTodoListItem(todoItem.todoId)">Vanish</button>
+    }
+</ul>

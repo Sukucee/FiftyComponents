@@ -23,6 +23,7 @@ import { PalindromeCheckerComponent } from './palindrome-checker/palindrome-chec
 import { TemperatureConverterComponent } from './temperature-converter/temperature-converter.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { FactorialCalculatorComponent } from './factorial-calculator/factorial-calculator.component';
+import { ToDoManagerComponent } from './to-do-manager/to-do-manager.component';
 
 export const routes: Routes = [
         {
@@ -139,6 +140,11 @@ export const routes: Routes = [
             title: 'Component 23: "Factorial Calculator',
             component:  FactorialCalculatorComponent,
             path:'factnum',
+        },
+        {
+            title: 'Component 24: "To Do Manager',
+            component:  ToDoManagerComponent,
+            path:'nugagawen',
         }
 
 
