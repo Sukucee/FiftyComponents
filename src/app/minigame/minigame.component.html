@@ -1,0 +1,10 @@
+<h3>---------------- Rock, Paper, Scissors ----------------</h3>
+    <p>Choose your move:</p>
+    <button (click)="playGame('rock')">ROCK</button>
+    <button (click)="playGame('paper')">PAPER</button>
+    <button (click)="playGame('scissors')">SCISSORS</button>
+
+    <br>
+    <p *ngIf="playerChoice && computerChoice">You chose: {{ playerChoice }}</p>
+    <p *ngIf="computerChoice">Universe chose: {{ computerChoice }}</p>
+    <p *ngIf="result">{{ result }}</p>

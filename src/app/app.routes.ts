@@ -42,6 +42,7 @@ import { UppercaseGreetingsComponent } from './uppercase-greetings/uppercase-gre
 import { DivisibleCheckerComponent } from './divisible-checker/divisible-checker.component';
 import { VowelCounterComponent } from './vowel-counter/vowel-counter.component';
 import { RandomColorsComponent } from './random-colors/random-colors.component';
+import { MinigameComponent } from './minigame/minigame.component';
 
 export const routes: Routes = [
         {
@@ -253,6 +254,11 @@ export const routes: Routes = [
             title: 'Component 42: " Random Color',
             component:  RandomColorsComponent,
             path:'Makulay',
+        },
+        {
+            title: 'Component 43: " Minigame',
+            component:  MinigameComponent ,
+            path:'Mini',
         }
         
 
