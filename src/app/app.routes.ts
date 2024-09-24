@@ -29,6 +29,7 @@ import { WordCounterComponent } from './word-counter/word-counter.component';
 import { RandomNumberGeneratorComponent } from './random-number-generator/random-number-generator.component';
 import { MultiplicationCheckerComponent } from './multiplication-checker/multiplication-checker.component';
 import { UpperCaseConverterComponent } from './upper-case-converter/upper-case-converter.component';
+import { WordShufflerComponent } from './word-shuffler/word-shuffler.component';
 
 export const routes: Routes = [
         {
@@ -175,6 +176,11 @@ export const routes: Routes = [
             title: 'Component 29: "Uppercase Converter',
             component:  UpperCaseConverterComponent,
             path:'bigletter',
+        },
+        {
+            title: 'Component 30: "World Shuffler',
+            component:  WordShufflerComponent,
+            path:'rumblejumble',
         }
         
 
