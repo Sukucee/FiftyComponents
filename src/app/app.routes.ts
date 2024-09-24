@@ -20,6 +20,7 @@ import { FarenheitToCelciusComponent } from './farenheit-to-celcius/farenheit-to
 import { BookmarkListComponent } from './bookmark-list/bookmark-list.component';
 import { CharacterCounterComponent } from './character-counter/character-counter.component';
 import { PalindromeCheckerComponent } from './palindrome-checker/palindrome-checker.component';
+import { TemperatureConverterComponent } from './temperature-converter/temperature-converter.component';
 
 export const routes: Routes = [
         {
@@ -121,7 +122,13 @@ export const routes: Routes = [
             title: 'Component 20: "Palindrome Check',
             component:  PalindromeCheckerComponent ,
             path:'checkitout',
+        },
+        {
+            title: 'Component 21: "Temperature Converter',
+            component:  TemperatureConverterComponent ,
+            path:'hottogo',
         }
+
 
 
 

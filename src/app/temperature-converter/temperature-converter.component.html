@@ -1,0 +1,11 @@
+<input type="number" #temperature />
+<select #tempUnit>
+    <option value="celsius">
+        Fahrenheit to Celsius
+    </option>
+    <option value="fahrenheit">
+        Celsius to Fahrenheit
+    </option>
+</select>
+<button (click)="convert()">Convert</button>
+<h2>{{ results }}</h2>
