@@ -37,6 +37,7 @@ import { CompoundInterestCalculatorComponent } from './compound-interest-calcula
 import { FibonacciGeneratorComponent } from './fibonacci-generator/fibonacci-generator.component';
 import { OddSumCalculatorComponent } from './odd-sum-calculator/odd-sum-calculator.component';
 import { CurrencyFormatterComponent } from './currency-formatter/currency-formatter.component';
+import { RandomQuoteDisplayComponent } from './random-quote-display/random-quote-display.component';
 
 export const routes: Routes = [
         {
@@ -223,6 +224,11 @@ export const routes: Routes = [
             title: 'Component 37: " Currency Formatter',
             component:  CurrencyFormatterComponent ,
             path:'PesoToSomething',
+        },
+        {
+            title: 'Component 38: " Random Quotes',
+            component:  RandomQuoteDisplayComponent,
+            path:'HeyHeyHey',
         }
         
 
