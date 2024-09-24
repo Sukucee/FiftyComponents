@@ -45,6 +45,7 @@ import { RandomColorsComponent } from './random-colors/random-colors.component';
 import { MinigameComponent } from './minigame/minigame.component';
 import { LettersAndNumbersComponent } from './letters-and-numbers/letters-and-numbers.component';
 import { OMGShoppingComponent } from './omgshopping/omgshopping.component';
+import { VanishingLettersComponent } from './vanishing-letters/vanishing-letters.component';
 
 export const routes: Routes = [
         {
@@ -271,6 +272,11 @@ export const routes: Routes = [
             title: 'Component 45: " OMG Shopping',
             component:  OMGShoppingComponent,
             path:'OMGBuyNa',
+        },
+        {
+            title: 'Component 46: " Vanishing Letters',
+            component:  VanishingLettersComponent,
+            path:'HalaNawala',
         }
         
 

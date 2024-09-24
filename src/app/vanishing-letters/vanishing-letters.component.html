@@ -1,0 +1,14 @@
+<div>
+    <h3>~~~~~~~~~~~~~ Vanishing Letter ~~~~~~~~~~~~~</h3>
+    <input 
+      type="text" 
+      #inputText 
+      placeholder="Enter a word"
+    />
+    <button (click)="inputWord = inputText.value; vanishLetter()">Vanish</button>
+    <div style="padding-top: 15px;">
+    <div *ngIf="updatedWord">
+      <strong>Updated Word:</strong> {{ updatedWord }}
+    </div>
+    </div>
+  </div>
