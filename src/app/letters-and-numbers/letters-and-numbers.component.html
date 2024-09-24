@@ -1,0 +1,15 @@
+<h3>+++++++++++++ LETTER TO NUMBER CONVERTER +++++++++++++</h3>
+<div>
+    <h2>Letter to Number Converter</h2>
+    <input 
+      type="text" 
+      #inputText 
+      placeholder="Enter letters"
+    />
+    <button (click)="convert(inputText.value)">Convert</button>
+    <br>
+    <div style="margin-top: 15px;">
+      <strong>Output Numbers:</strong>
+      <span>{{ outputNumbers }}</span>
+    </div>
+  </div>
