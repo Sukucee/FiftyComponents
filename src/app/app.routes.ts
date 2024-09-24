@@ -22,6 +22,7 @@ import { CharacterCounterComponent } from './character-counter/character-counter
 import { PalindromeCheckerComponent } from './palindrome-checker/palindrome-checker.component';
 import { TemperatureConverterComponent } from './temperature-converter/temperature-converter.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
+import { FactorialCalculatorComponent } from './factorial-calculator/factorial-calculator.component';
 
 export const routes: Routes = [
         {
@@ -133,7 +134,13 @@ export const routes: Routes = [
             title: 'Component 22: "Shopping List',
             component:  ShoppingListComponent ,
             path:'minekonaito',
+        },
+        {
+            title: 'Component 23: "Factorial Calculator',
+            component:  FactorialCalculatorComponent,
+            path:'factnum',
         }
+
 
 
 
