@@ -44,6 +44,7 @@ import { VowelCounterComponent } from './vowel-counter/vowel-counter.component';
 import { RandomColorsComponent } from './random-colors/random-colors.component';
 import { MinigameComponent } from './minigame/minigame.component';
 import { LettersAndNumbersComponent } from './letters-and-numbers/letters-and-numbers.component';
+import { OMGShoppingComponent } from './omgshopping/omgshopping.component';
 
 export const routes: Routes = [
         {
@@ -265,6 +266,11 @@ export const routes: Routes = [
             title: 'Component 44: " Letter To Numbers',
             component:  LettersAndNumbersComponent ,
             path:'LeNuh',
+        },
+        {
+            title: 'Component 45: " OMG Shopping',
+            component:  OMGShoppingComponent,
+            path:'OMGBuyNa',
         }
         
 

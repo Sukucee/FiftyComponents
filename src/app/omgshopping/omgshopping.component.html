@@ -1,0 +1,19 @@
+<h2>++++++++++ WELCOME TO OMG SHOPPING ++++++++++ </h2>
+<div>
+    <h3>|-------> Shopping List <-------|</h3>
+    <ul>
+      <li *ngFor="let item of items">
+        <input 
+          type="checkbox" 
+          (change)="item.checked = !item.checked"
+        />
+        {{ item.name }}
+      </li>
+    </ul>
+    <button (click)="buyItems()">Buy</button>
+    <div style="padding-top: 15px;">
+    <div *ngIf="boughtItems.length > 0">
+      <strong>Bought Items:</strong> {{ boughtItems.join(', ') }}
+    </div>
+    </div>
+  </div>
