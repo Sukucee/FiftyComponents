@@ -47,6 +47,7 @@ import { LettersAndNumbersComponent } from './letters-and-numbers/letters-and-nu
 import { OMGShoppingComponent } from './omgshopping/omgshopping.component';
 import { VanishingLettersComponent } from './vanishing-letters/vanishing-letters.component';
 import { SpeedConversionComponent } from './speed-conversion/speed-conversion.component';
+import { DayDifferenceInterpreterComponent } from './day-difference-interpreter/day-difference-interpreter.component';
 
 export const routes: Routes = [
         {
@@ -283,6 +284,11 @@ export const routes: Routes = [
             title: 'Component 47: " Speed Converter',
             component:  SpeedConversionComponent ,
             path:'speedster',
+        },
+        {
+            title: 'Component 48: " Day Difference Interpreter',
+            component:  DayDifferenceInterpreterComponent,
+            path:'whenisthis',
         }
         
 
