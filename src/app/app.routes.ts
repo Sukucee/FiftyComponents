@@ -41,6 +41,7 @@ import { RandomQuoteDisplayComponent } from './random-quote-display/random-quote
 import { UppercaseGreetingsComponent } from './uppercase-greetings/uppercase-greetings.component';
 import { DivisibleCheckerComponent } from './divisible-checker/divisible-checker.component';
 import { VowelCounterComponent } from './vowel-counter/vowel-counter.component';
+import { RandomColorsComponent } from './random-colors/random-colors.component';
 
 export const routes: Routes = [
         {
@@ -247,6 +248,11 @@ export const routes: Routes = [
             title: 'Component 41: " Vowel Counter',
             component:  VowelCounterComponent,
             path:'Countmya',
+        },
+        {
+            title: 'Component 42: " Random Color',
+            component:  RandomColorsComponent,
+            path:'Makulay',
         }
         
 
