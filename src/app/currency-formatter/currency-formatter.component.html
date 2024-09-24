@@ -1,0 +1,12 @@
+<h3>--------------- CURRENCY FORMATTER ---------------</h3>
+<br>
+<input
+	type="number"
+	#currency />
+<select #conversionCurr>
+	<option value="usd">USD</option>
+	<option value="php">PHP</option>
+	<option value="euro">EURO</option>
+</select>
+<button (click)="convert()">Convert</button>
+<h3>Converted to: {{ Result }}</h3>

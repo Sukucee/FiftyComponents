@@ -36,6 +36,7 @@ import { InterestCalculatorComponent } from './interest-calculator/interest-calc
 import { CompoundInterestCalculatorComponent } from './compound-interest-calculator/compound-interest-calculator.component';
 import { FibonacciGeneratorComponent } from './fibonacci-generator/fibonacci-generator.component';
 import { OddSumCalculatorComponent } from './odd-sum-calculator/odd-sum-calculator.component';
+import { CurrencyFormatterComponent } from './currency-formatter/currency-formatter.component';
 
 export const routes: Routes = [
         {
@@ -216,7 +217,12 @@ export const routes: Routes = [
         {
             title: 'Component 36: " OddEven Calculator',
             component:  OddSumCalculatorComponent ,
-            path:'OddEvenNaNaman',
+            path:'OddSum',
+        },
+        {
+            title: 'Component 37: " Currency Formatter',
+            component:  CurrencyFormatterComponent ,
+            path:'PesoToSomething',
         }
         
 
