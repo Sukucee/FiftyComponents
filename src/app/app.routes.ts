@@ -32,6 +32,7 @@ import { UpperCaseConverterComponent } from './upper-case-converter/upper-case-c
 import { WordShufflerComponent } from './word-shuffler/word-shuffler.component';
 import { BMISolverComponent } from './bmisolver/bmisolver.component';
 import { UsernameValidatorComponent } from './username-validator/username-validator.component';
+import { InterestCalculatorComponent } from './interest-calculator/interest-calculator.component';
 
 export const routes: Routes = [
         {
@@ -193,6 +194,11 @@ export const routes: Routes = [
             title: 'Component 32: "Username validation',
             component:  UsernameValidatorComponent,
             path:'validkaba',
+        },
+        {
+            title: 'Component 33: "Interest Calculator',
+            component:  InterestCalculatorComponent ,
+            path:'notsorich',
         }
         
 
