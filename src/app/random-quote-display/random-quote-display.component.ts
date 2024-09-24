@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 })
 export class RandomQuoteDisplayComponent {
   quotesArray = [
-		'Life is like a rainbow, you need a sunshine and storm to be able to see the beuty of it',
+		'Life is like a rainbow, you need a sunshine and storm to be able to see the beauty of it',
 		'I finally got eight hours of sleep! It only took me three days.',
 		'Some people wake up feeling like a million bucks. Me? I wake up feeling like a coupon that expired yesterday.',
 		'Im on a seafood diet. I see food, and I eat it.',
