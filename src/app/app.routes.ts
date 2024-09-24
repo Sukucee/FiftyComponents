@@ -19,6 +19,7 @@ import { SimpleLoginComponent } from './simple-login/simple-login.component';
 import { FarenheitToCelciusComponent } from './farenheit-to-celcius/farenheit-to-celcius.component';
 import { BookmarkListComponent } from './bookmark-list/bookmark-list.component';
 import { CharacterCounterComponent } from './character-counter/character-counter.component';
+import { PalindromeCheckerComponent } from './palindrome-checker/palindrome-checker.component';
 
 export const routes: Routes = [
         {
@@ -115,6 +116,11 @@ export const routes: Routes = [
             title: 'Component 19: "Character Count',
             component: CharacterCounterComponent ,
             path:'countmein',
+        },
+        {
+            title: 'Component 20: "Palindrome Check',
+            component:  PalindromeCheckerComponent ,
+            path:'checkitout',
         }
 
 
