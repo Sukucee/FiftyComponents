@@ -16,6 +16,7 @@ import { ShowDateComponent } from './show-date/show-date.component';
 import { UsernameComponent } from './username/username.component';
 import { MultiplicationTableComponent } from './multiplication-table/multiplication-table.component';
 import { SimpleLoginComponent } from './simple-login/simple-login.component';
+import { FarenheitToCelciusComponent } from './farenheit-to-celcius/farenheit-to-celcius.component';
 
 export const routes: Routes = [
         {
@@ -97,7 +98,13 @@ export const routes: Routes = [
             title: 'Component 16: "Logging In',
             component: SimpleLoginComponent ,
             path:'signin',
+        },
+        {
+            title: 'Component 17: "Farenheit To Celsius',
+            component: FarenheitToCelciusComponent ,
+            path:'temperature',
         }
+
 
 
 
