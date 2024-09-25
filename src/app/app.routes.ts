@@ -48,6 +48,7 @@ import { OMGShoppingComponent } from './omgshopping/omgshopping.component';
 import { VanishingLettersComponent } from './vanishing-letters/vanishing-letters.component';
 import { SpeedConversionComponent } from './speed-conversion/speed-conversion.component';
 import { DayDifferenceInterpreterComponent } from './day-difference-interpreter/day-difference-interpreter.component';
+import { AnagramComponent } from './anagram/anagram.component';
 
 export const routes: Routes = [
         {
@@ -289,6 +290,11 @@ export const routes: Routes = [
             title: 'Component 48: " Day Difference Interpreter',
             component:  DayDifferenceInterpreterComponent,
             path:'whenisthis',
+        },
+        {
+            title: 'Component 49: " Anagrams',
+            component:  AnagramComponent ,
+            path:'anawhat',
         }
         
 

@@ -1,0 +1,13 @@
+<div>
+    <h3>|---------------------------| Anagram Checker |---------------------------|</h3>
+  
+    <label for="word1">Word 1:  </label>
+    <input type="text" id="word1" #inputWord1 />
+  
+    <label for="word2">  Word 2:  </label>
+    <input type="text" id="word2" #inputWord2 />
+  
+    <button (click)="word1 = inputWord1.value; word2 = inputWord2.value; checkAnagram()"> Check </button>
+  
+    <p *ngIf="result !== null">Result: <strong>{{ result }}</strong></p>
+  </div>
