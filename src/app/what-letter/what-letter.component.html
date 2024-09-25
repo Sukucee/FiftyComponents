@@ -1,0 +1,11 @@
+<div>
+    <h3>~~~~~~~~~~~~~~ Letter Guessing Game ~~~~~~~~~~~~~~</h3>
+  
+    <p style="font-weight: bold;">Guess the letter (a-z):</p>
+    <input type="text" maxlength="1" #guessInput placeholder="Enter a letter" />
+  
+    <button (click)="userGuess = guessInput.value; checkGuess()">Submit Guess</button>
+  
+    <p *ngIf="result !== null">{{ result }}</p>
+  </div>
+  

@@ -49,6 +49,7 @@ import { VanishingLettersComponent } from './vanishing-letters/vanishing-letters
 import { SpeedConversionComponent } from './speed-conversion/speed-conversion.component';
 import { DayDifferenceInterpreterComponent } from './day-difference-interpreter/day-difference-interpreter.component';
 import { AnagramComponent } from './anagram/anagram.component';
+import { WhatLetterComponent } from './what-letter/what-letter.component';
 
 export const routes: Routes = [
         {
@@ -295,6 +296,11 @@ export const routes: Routes = [
             title: 'Component 49: " Anagrams',
             component:  AnagramComponent ,
             path:'anawhat',
+        },
+        {
+            title: 'Component 50: " WhatLetter',
+            component:  WhatLetterComponent ,
+            path:'whatiswhat',
         }
         
 
